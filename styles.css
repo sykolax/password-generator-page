@@ -5,3 +5,15 @@
     --highlight-password-green: #55F991;
     --text-medium-grey: #D5D4D8;
 }
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    font-family: "Karla", sans-serif;
+}
+
+button {
+    font-family: inherit;
+}
