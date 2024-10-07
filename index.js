@@ -12,3 +12,11 @@ function generateRandomNumbers(num) {
     return randomNums;
 }
 
+function constructPassword(num) {
+    let password = "";
+    randomIdx = generateRandomNumbers(num);
+    for(let i = 0; i < num; i++) {
+        password += characters[randomIdx];       
+    }
+    return password;
+}
