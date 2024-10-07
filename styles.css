@@ -39,8 +39,9 @@ button {
     background-color: var(--background-password-bright-navy);
     color: var(--highlight-password-green);
     font-size: 16px;
-    padding: 12px 65px;
+    padding: 12px 60px;
     border-radius: 6px;
+    width: 100px;
 }
 
 .password-container {
