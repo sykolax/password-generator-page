@@ -1,5 +1,6 @@
 :root {
     --background-navy: #1F2937;
+    --background-password-bright-navy: #273549;
     --highlight-title-green: #4ADF86;
     --highlight-button-green: #10B981;
     --highlight-password-green: #55F991;
@@ -8,12 +9,29 @@
 
 body {
     font-family: "Inter", sans-serif;
+    background-color: var(--background-navy);
+    color: white;
 }
 
 h1 {
     font-family: "Karla", sans-serif;
 }
 
+h2 {
+    color: var(--text-medium-grey);
+}
+
 button {
     font-family: inherit;
+    background-color: var(--highlight-button-green);
+    color: white;
+}
+
+.generated-password {
+    background-color: var(--background-password-bright-navy);
+    color: var(--highlight-password-green);
+}
+
+#title-highlight {
+    color: var(--highlight-title-green);
 }
