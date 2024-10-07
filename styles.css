@@ -15,14 +15,18 @@ body {
 
 h1 {
     font-family: "Karla", sans-serif;
+    font-size: 40px;
 }
 
 h2 {
     color: var(--text-medium-grey);
+    font-weight: 300;
+    font-size: 20px;
 }
 
 button {
     font-family: inherit;
+    font-size: 16px;
     background-color: var(--highlight-button-green);
     color: white;
 }
@@ -30,6 +34,7 @@ button {
 .generated-password {
     background-color: var(--background-password-bright-navy);
     color: var(--highlight-password-green);
+    font-size: 16px;
 }
 
 .container {
