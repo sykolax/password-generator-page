@@ -26,6 +26,7 @@ h2 {
     color: var(--text-medium-grey);
     font-weight: 300;
     font-size: 20px;
+    margin-top: 12px;
 }
 
 button {
@@ -37,6 +38,7 @@ button {
     padding: 10px 15px;
     border: none;
     border-radius: 6px;
+    margin-top: 50px;
 }
 
 .generated-password {
@@ -51,6 +53,7 @@ button {
 .password-container {
     display: flex; 
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .container {
