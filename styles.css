@@ -29,6 +29,10 @@ button {
     font-size: 16px;
     background-color: var(--highlight-button-green);
     color: white;
+    align-self: start;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
 }
 
 .generated-password {
