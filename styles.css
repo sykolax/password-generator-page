@@ -32,6 +32,12 @@ button {
     color: var(--highlight-password-green);
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 30px;
+}
+
 #title-highlight {
     color: var(--highlight-title-green);
 }
