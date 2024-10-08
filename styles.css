@@ -41,6 +41,17 @@ button {
     margin-top: 50px;
 }
 
+input[type="text"] {
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    width: 300px;
+    height: 30px;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
 .generated-password {
     background-color: var(--background-password-bright-navy);
     color: var(--highlight-password-green);
