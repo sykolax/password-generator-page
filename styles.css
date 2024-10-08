@@ -41,7 +41,7 @@ button {
     margin-top: 50px;
 }
 
-input[type="text"] {
+input[type="number"] {
     background-color: white;
     border: none;
     border-radius: 6px;
