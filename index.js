@@ -23,3 +23,12 @@ function constructPassword(num) {
     return password;
 }
 
+generateBtnEl.addEventListener("click", function () {
+    let password1 = constructPassword(10);
+    let password2 = constructPassword(10);
+
+    console.log(password1);
+
+    passwordEls[0].textContent = password1;
+    passwordEls[1].textContent = password2;
+})
