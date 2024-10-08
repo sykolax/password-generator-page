@@ -5,6 +5,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 let generateBtnEl = document.querySelector("#generate-btn");
 let passwordEls = document.querySelectorAll(".generated-password");
+let passwordLengthEl = document.querySelector("#password-length");
 
 function generateRandomNumbers(num) {
     let randomNums = [];
