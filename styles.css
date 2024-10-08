@@ -48,6 +48,8 @@ button {
     padding: 12px 60px;
     border-radius: 6px;
     width: 100px;
+    height: 20px;
+    text-align: center;
 }
 
 .password-container {

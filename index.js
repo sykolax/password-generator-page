@@ -22,3 +22,4 @@ function constructPassword(num) {
     }
     return password;
 }
+
