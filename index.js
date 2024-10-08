@@ -9,7 +9,7 @@ let passwordEls = document.querySelectorAll(".generated-password");
 function generateRandomNumbers(num) {
     let randomNums = [];
     for(let i = 0; i < num; i++) {
-        randomNums.push(Math.floor(Math.random()*characters.length));
+        randomNums.push(Math.floor(Math.random() * characters.length));
     }
     return randomNums;
 }
@@ -18,7 +18,7 @@ function constructPassword(num) {
     let password = "";
     randomIdx = generateRandomNumbers(num);
     for(let i = 0; i < num; i++) {
-        password += characters[randomIdx];       
+        password += characters[randomIdx[i]];       
     }
     return password;
 }
