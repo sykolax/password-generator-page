@@ -25,8 +25,9 @@ function constructPassword(num) {
 }
 
 generateBtnEl.addEventListener("click", function () {
-    let password1 = constructPassword(10);
-    let password2 = constructPassword(10);
+    let passwordLength = passwordLengthEl.value;
+    let password1 = constructPassword(passwordLength);
+    let password2 = constructPassword(passwordLength);
 
     console.log(password1);
 
